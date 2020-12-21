@@ -2,8 +2,6 @@ import discord
 from discord.ext import commands
 from discord.utils import get
 
-TOKEN = 'NzYyMjY5MzY1ODE4MDk3Njc0.X3msqw.rrZ9vaYlo1p2n3qCRDTC2XQ3e8U'
-
 bot = commands.Bot(command_prefix='>', intents = discord.Intents.all())
 bot.remove_command( 'help' )
 
